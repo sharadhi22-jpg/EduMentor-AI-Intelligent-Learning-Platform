@@ -15,7 +15,7 @@ class Settings(BaseSettings):
 
     # Gemini (used for chat generation, flashcard/quiz generation, and embeddings)
     GEMINI_API_KEY: str = ""
-    GEMINI_MODEL: str = "gemini-2.5-flash"
+    GEMINI_MODEL: str = "gemini-3.5-flash"
     GEMINI_EMBEDDING_MODEL: str = "gemini-embedding-001"
     EMBEDDING_DIMENSIONS: int = 768
 
